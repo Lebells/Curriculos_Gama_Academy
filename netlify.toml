@@ -1,7 +1,7 @@
 [build]
-base = "."
+base = "./web/"
 command = "npm run build"
-publish = "./build/"
+publish = "./web/build/"
 
 [build.environment]
 REACT_APP_API_URL = "https://meu-endereco-producao.com.br/api"
